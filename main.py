@@ -6,7 +6,7 @@ app = Flask('app')
 
 @app.route('/')
 def index_page():
-  return render_template ('C:\Users\genda\Documents\GitHub\startit-chats\templates\BioM.html')
+  return render_template ('BioM.html')
 
 
 if __name__ == '__main__':
